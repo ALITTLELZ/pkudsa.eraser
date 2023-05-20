@@ -18,3 +18,4 @@ class Plaser:
 
     def move(self, current_board, valid_movement, *args):
         return self.strategy.select(current_board, valid_movement)
+    #heee
